@@ -1,0 +1,24 @@
+<script type="text/javascript">
+ window.onload =  function setCurrentPage() {
+  if(window.location.pathname === "" || window.location.pathname === "/"){
+   document.getElementById("home").classList.add("current-page");
+  }else{
+   lvls = window.location.pathname.split("/");
+   if(lvls.length == 0){
+    document.getElementById("home").classList.add("current-page");
+   }else{
+    document.getElementById(lvls[1]).classList.add("current-page");
+   }
+  }
+}
+</script>
+<div>
+ <a href="/"><h1>Dragon Wings</h1></a><br><br>
+ <a href="/"><h2>A Dragon's Data Hoard</h2></a> 
+</div>
+<div><br>
+ <a href="/" id="home"><h4>Home</h4></a>
+ <a href="/style/" id="style"><h4>Why The Style</h4></a>
+ <a href="/minecraft/" id="minecraft"><h4>Minecraft</h4></a>
+ <br><br>
+</div>
