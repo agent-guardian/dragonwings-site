@@ -7,3 +7,5 @@ instance/
 
 build/
 .vscode/
+
+.venv/
