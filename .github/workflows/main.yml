@@ -27,4 +27,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: deploy to pi
-        run: cd /var/www/github/dragonwings-site %% git pull
+        run: cd /var/www/github/dragonwings-site ; git pull
