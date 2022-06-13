@@ -26,4 +26,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: deploy to pi
-        run: cp -r $GITHUB_WORKSPACE $DEPLOY_DIR
+        run: cp -r $GITHUB_WORKSPACE ${{ secrets.DEPLOY_DIR }}
