@@ -26,4 +26,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: deploy to pi
-        run: cp -r $GITHUB_WORKSPACE /var/www/github/dragonwings-site
+        run: cp -r $GITHUB_WORKSPACE $DEPLOY_DIR
