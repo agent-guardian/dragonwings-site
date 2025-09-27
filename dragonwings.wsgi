@@ -1,2 +1,2 @@
 #!/usr/bin/python
-import app.py
+import ./app.py
