@@ -1,0 +1,38 @@
+@font-face{
+    font-family: Hack;
+    src: url("font/Hack-Regular.ttf");
+  }
+  @font-face{
+    font-family: Hack-Italic;
+    src: url("font/Hack-Italic.ttf");
+  }
+  body, a{
+    font-family: Hack;
+    color: #0a83a8;
+  }
+  .content a{
+    text-decoration: none;
+    font-weight: bold;
+  }
+  body{
+    background-color: #00171f;
+  }
+  a{
+    text-decoration: none;
+  }
+  a:hover{
+    font-family: Hack-Italic;
+  }
+  h1, h2, h4{
+    display: inline;
+  }
+  .current-page{
+    color: #00b0e8;
+  }
+  .center{
+    text-align: center;
+  }
+  table{
+    text-indent: 30px;
+    width: 100%;
+  }

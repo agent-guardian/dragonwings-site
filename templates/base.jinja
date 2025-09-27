@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dragon Wings - {% block title %}{% endblock %}</title>
+  <link rel="icon" href="{{ url_for('static',filename='favicon.png') }}"/>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+  {% block head %}{% endblock %}
+ </head>
+ <body>
+  {% include "navbar.jinja" %}
+  <div class="content">
+   {% block content %}{% endblock content %}
+  </div>
+    <div class="center">
+   <br><br>
+   This site &copy; F&iacute;rnen 2022<br>
+   <a href="https://id0.one" target="_top">Check out my friend's site</a><br>
+   <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_top">Some important information about my site is here</a>
+  </div> </body>
+</html>
