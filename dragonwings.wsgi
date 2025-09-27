@@ -1,2 +1,2 @@
 #!/usr/bin/python
-import ./app.py
+from dragonwings import app as application
